@@ -26,7 +26,7 @@ public class RapierDefinitionDataProvider extends AbstractToolDefinitionDataProv
             .part(TinkerToolParts.largePlate)
             .part(TinkerToolParts.toughHandle)
             .part(TinkerToolParts.toolHandle)
-            .stat(ToolStats.ATTACK_DAMAGE, 1.25f)
+            .stat(ToolStats.ATTACK_DAMAGE, 3.0f)
             .stat(ToolStats.ATTACK_SPEED, 3.0f)
             .stat(ToolStats.MINING_SPEED, 0.75f)
             .stat(ToolStats.DURABILITY, RapierConfig.RAPIER_DURABILITY.get().floatValue())
